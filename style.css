@@ -1,0 +1,106 @@
+.devo{
+    background-color: #577BC1;
+    width: 320px;
+    display: inline-block;
+    border: 1px solid;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    /* padding-top: 10px; */
+    border-radius: 20px;
+    transition: 300ms;
+    box-shadow: 5px 5px 0px #6c98f0;
+}
+.devo:hover{
+    box-shadow: 10px 10px 0px #6c98f0;
+}
+.img{
+    width: 300px;
+    height: 200px;
+    border: 1px solid ; 
+    display: inline;
+    /* box-shadow: 0px 0px 20px white , 0px 0px 20px white; */
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 300ms;
+}
+.img:hover{
+    box-shadow: 5px 5px 0px rgba(255, 255, 255, 0.281);
+}
+.name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000957;
+    font-size: 25px;
+}
+
+.pra{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+
+ 
+.inp{
+    
+    width: 80%;
+    display: inline-block;
+    border-radius: 10px;
+    border: 0px;
+    background-color: gold;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 300ms;
+    color: rgb(0, 0, 0);
+    border: solid 1px;
+    box-shadow: 5px 5px 0px rgb(255, 234, 112) ;
+    
+}
+
+.inp:hover{
+    text-shadow: 0px 0px 10px white,0px 0px 10px white;
+    
+}
+
+.bu{
+    width: 10%;
+    display: block;
+    margin: 10px;
+    background-color:#577BC1;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    border:solid 1px;
+    color: rgb(0, 0, 0);
+    transition: 300ms;
+    display: inline;
+    box-shadow: 3px 4px 0px #000957;
+}
+.bu:hover{
+    color: black;
+    background-color: rgba(255, 217, 0, 0.541);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+.buy{
+    width: 250px;
+    border: 1px solid ; 
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px ;
+    background-color: rgb(255, 226, 59);
+    color: #000957;
+    transition: 300ms;
+    box-shadow: 3px 3px 0px rgb(1, 51, 99);
+
+}
+
+.buy:hover{
+    width: 300px;
+    
+}
+
+body{
+    background-color: #ffffff;
+    text-align: center;
+}
